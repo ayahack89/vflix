@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.logo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 33%;
+  border: none;
+  border-radius: 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 22px 12px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-list li a:hover {
+  color: red;
+  cursor: pointer;
+}
+.rightNav {
+  width: 50%;
+  text-align: right;
+  padding: 0 25px;
+}
+
+.rightNav input::placeholder {
+  font-size: 1rem;
+}
+
+#search {
+  padding: 6.5px;
+  margin: 4px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7)
+    url("../img/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.firstSection {
+  height: 80vh;
+}
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 65%;
+}
+.firstHalf {
+  width: 80%;
+  height: 65%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondHalf {
+  width: 50%;
+}
+.secondHalf img {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+.text-big {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: red;
+}
+.text-small {
+  font-size: 18px;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 20px 2px;
+  border: 2px solid red;
+  color: red;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: transparent;
+}
+.btn-sm {
+  padding: 7px 10px;
+  vertical-align: middle;
+}
+.btn:hover {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+}
+
+.section {
+  /* height: 500px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.section-Left {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  flex-direction: row-reverse;
+}
+/* .sectionTag {
+  padding: 20px 0px;
+} */
+.thumbnail {
+  margin-left: 100px;
+}
+.thumbnail img {
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+}
+.mobile-image img {
+  width: 60%;
+}
+.text-big-II {
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 10px;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-small-II {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  color: aliceblue;
+}
+.paras {
+  padding: 0px 70px;
+}
+.subscription {
+  background-color: rgb(29, 28, 28);
+  height: 533px;
+}
+.text-aline {
+  text-align: center;
+  padding: 30px;
+  font-family: "Ubuntu", sans-serif;
+  color: red;
+  font-size: 2rem;
+}
+.form {
+  max-width: 500px;
+  margin: auto;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.form input::placeholder {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.btn-light {
+  border: 2px solid rgb(255, 3, 3);
+  color: rgb(248, 2, 2);
+}
+.text-footer {
+  text-align: center;
+  padding: 30px 0px;
+  font-family: "Ubuntu", sans-serif;
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: rgb(248, 246, 246);
+  height: 4px;
+  margin: 5px;
+}
+@media only screen and (max-width: 1000px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+  .navbar {
+    height: 500px;
+    flex-direction: column;
+    transition: all 0.4s ease-out;
+  }
+
+  .rightNav {
+    text-align: center;
+  }
+  .btn {
+    margin-top: 5px;
+  }
+
+  #search {
+    width: 100%;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+  .box-main {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .text-small {
+    text-align: center;
+  }
+  .text-big {
+    text-align: center;
+  }
+  .text-small-II {
+    text-align: left;
+  }
+  .text-big-II {
+    text-align: left;
+  }
+  .button {
+    text-align: center;
+  }
+  .mobile-image img {
+    width: 60%;
+    margin: 20px;
+  }
+  .tv-image {
+    margin-top: 50px;
+  }
+  .paras {
+    padding: 0;
+  }
+  .subscription {
+    padding: 0;
+    margin: 50px;
+  }
+  .form input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    /* padding: 0; */
+    margin: 20px;
+    width: 70%;
+  }
+}
