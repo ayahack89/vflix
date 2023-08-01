@@ -65,8 +65,7 @@ body {
   border-radius: 10px;
 }
 .background {
-  background: rgba(0, 0, 0, 0.7)
-    url("../img/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background: rgba(0, 0, 0, 0.7) url("../img/Background-image.jpg");
   background-size: cover;
   background-blend-mode: darken;
 }
