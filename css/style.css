@@ -231,7 +231,7 @@ body {
   height: 4px;
   margin: 5px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
   .nav-list {
     flex-direction: column;
   }
@@ -239,7 +239,7 @@ body {
     display: block;
   }
   .navbar {
-    height: 500px;
+    height: 700px;
     flex-direction: column;
     transition: all 0.4s ease-out;
   }
@@ -248,11 +248,12 @@ body {
     text-align: center;
   }
   .btn {
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   #search {
     width: 100%;
+    padding: 10px;
   }
   .h-nav-resp {
     height: 72px;
