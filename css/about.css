@@ -55,7 +55,7 @@ body {
   margin-left: 100px;
 }
 .image img {
-  width: 150%;
+  width: 10vw;
   margin-bottom: 300px;
   border: 3px solid rgb(241, 240, 240);
   border-radius: 10px;
@@ -102,15 +102,16 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 /* About-responsivness */
-@media only screen and (max-width: 1252px) {
+@media screen and (max-width: 1252px) {
   .big-border {
     /* box-sizing: border-box; */
     border: none;
     display: inline-block;
 
     background-color: rgb(65, 64, 64);
-    /* border-radius: 50px; */
-    height: 200vh;
+    border-radius: 10px;
+    height: 210vh;
+
     padding: 0;
     margin: auto;
   }
@@ -127,14 +128,13 @@ font-family: 'Ubuntu', sans-serif;
 
   .image img {
     width: 50%;
-    margin: 5px 50px;
+    margin: 10px 50px;
     position: relative;
 
     right: 20%;
 
     border: 3px solid rgba(251, 4, 4, 0.699);
     border-radius: 20px;
-    box-shadow: 1px 0px 11px 1px rgb(23, 23, 23);
   }
   .Linkedin-btn {
     width: 100%;
@@ -151,14 +151,14 @@ font-family: 'Ubuntu', sans-serif;
     flex-direction: column-reverse;
   }
   .text-big {
-    font-size: 6px;
+    font-size: 2%;
     padding: 0;
   }
   .text-small {
     text-align: center;
   }
 }
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .section {
     height: 600px;
     display: flex;
@@ -169,13 +169,36 @@ font-family: 'Ubuntu', sans-serif;
     flex-direction: column-reverse;
   }
   .text-big {
-    font-size: 50px;
+    font-size: 12vw;
+    margin: bottom 10px;
   }
   .text-small {
     text-align: center;
   }
 }
 @media only screen and (max-width: 380px) {
+  .big-border {
+    /* box-sizing: border-box; */
+    border: none;
+    display: inline-block;
+
+    background-color: rgb(65, 64, 64);
+    border-radius: 10px;
+    height: 252vh;
+
+    padding: 0;
+    margin: auto;
+  }
+  .image img {
+    width: 50%;
+    margin: 10px 50px;
+    position: relative;
+
+    right: 20%;
+
+    border: 3px solid rgba(251, 4, 4, 0.699);
+    border-radius: 20px;
+  }
   .section {
     height: 700px;
     display: flex;
@@ -186,7 +209,7 @@ font-family: 'Ubuntu', sans-serif;
     flex-direction: column-reverse;
   }
   .text-big {
-    font-size: 50px;
+    font-size: 10vw;
   }
   .text-small {
     text-align: center;
