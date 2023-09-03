@@ -223,14 +223,14 @@ body {
   position: absolute;
   cursor: pointer;
   right: 4%;
-  top: 5%;
+  top: 20%;
 }
 .line {
-  width: 80px;
+  width: 15px;
   background-color: rgb(255, 0, 0);
   height: 15px;
   padding: 2px;
-  margin: 6px;
+  margin: 8px;
   border: none;
   border-radius: 100px;
 }
