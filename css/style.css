@@ -47,13 +47,16 @@ body {
   cursor: pointer;
 }
 .rightNav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
   width: 50%;
   text-align: right;
   padding: 0 25px;
 }
 
 .rightNav input::placeholder {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 #search {
@@ -62,7 +65,7 @@ body {
   margin-top: 10px;
   font-size: 18px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 .background {
   background: rgba(0, 0, 0, 0.6) url("../img/Background-image.jpg");
@@ -110,6 +113,12 @@ body {
 .text-small {
   font-size: 18px;
 }
+ion-icon {
+  font-size: 2.8rem;
+
+  color: red;
+}
+
 .btn {
   padding: 10px 20px;
   margin: 20px 2px;
@@ -277,9 +286,12 @@ body {
     padding: 10px;
     border-radius: 50px;
   }
+  ion-icon {
+    font-size: 10rem;
+  }
   #search::placeholder {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.8rem;
+    padding: 20px;
   }
   .h-nav-resp {
     height: 8vh;
@@ -295,9 +307,14 @@ body {
   .box-main {
     flex-direction: column;
     max-width: 100%;
+    padding-top: 15%;
   }
   .section {
     flex-direction: column-reverse;
+  }
+  .secondHalf {
+    width: 65%;
+    margin-top: 50px;
   }
   .text-small {
     text-align: center;
@@ -358,9 +375,12 @@ body {
     font-size: 1.5rem;
   }
   .subscribe-btn {
-    width: 100%;
+    width: 110%;
+  }
+  footer {
+    height: 12vh;
   }
   .text-footer {
-    font-size: 1.8rem;
+    font-size: 3.2rem;
   }
 }
