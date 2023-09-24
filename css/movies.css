@@ -28,14 +28,14 @@ body {
 .navbar a {
   text-decoration: none;
   color: whitesmoke;
+  transition: all 5ms ease-in-out;
 }
 a:hover {
-  background-color: rgb(210, 30, 30);
-  color: black;
+  color: red;
   cursor: pointer;
   padding: 10px;
   border-radius: 8px;
-  border: none;
+  transform: translateX(-20%);
 }
 
 .flo_right_button {
@@ -46,27 +46,31 @@ a:hover {
 }
 
 input {
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid white;
   background-color: transparent;
 }
-input::placeholder {
+input[type="search"] {
   color: whitesmoke;
 }
 button {
   padding: 10px;
   margin: 5px;
   border-radius: 5px;
-  border: none;
+  border-bottom: 5px solid rgb(194, 194, 194);
+  border-right: 5px solid rgb(194, 194, 194);
+  transition: all 4ms ease-in;
 }
 button {
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 button:hover {
-  background-color: rgb(215, 8, 8);
+  transform: translateY(-3%);
+  background-color: rgba(255, 255, 255, 0.845);
   color: black;
 }
 .side_search_bar {
@@ -209,11 +213,11 @@ h1 {
 /* responsive */
 @media only screen and (max-width: 393px) {
   .navbar li a {
-    font-size: 10px;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 304px) {
   .navbar li a {
-    font-size: 8px;
+    font-size: 1rem;
   }
 }
