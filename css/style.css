@@ -14,9 +14,9 @@ body {
   align-items: center;
 }
 .logo img {
-  width: 33%;
+  width: 25%;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .navbar {
   display: flex;
@@ -149,6 +149,7 @@ ion-icon {
   justify-content: space-evenly;
   max-width: 80%;
   margin: auto;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -299,7 +300,7 @@ ion-icon {
     opacity: 0;
   }
   .logo {
-    width: 100%;
+    width: 150%;
     height: 100%;
     margin-top: 20px;
   }
@@ -327,12 +328,15 @@ ion-icon {
   }
   .text-small-II {
     text-align: left;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     margin-bottom: 45%;
   }
   .text-big-II {
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
   }
   .button {
     text-align: center;
@@ -350,7 +354,7 @@ ion-icon {
   .subscription {
     padding: 0;
     margin: 50px;
-    height: 32vh;
+    height: 37vh;
   }
   .subscription .text-aline {
     font-size: 5rem;
@@ -360,21 +364,22 @@ ion-icon {
   input[type="email"] {
     /* padding: 0; */
     margin: 20px;
-    width: 100%;
+    width: 110%;
     height: 3vh;
-    border-radius: 20px;
+    border-radius: 8px;
+    padding: 20px;
   }
   .form input[type="text"]::placeholder {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   input[type="password"]::placeholder {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   input[type="email"]::placeholder {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .subscribe-btn {
-    width: 110%;
+    width: 60%;
   }
   footer {
     height: 12vh;
