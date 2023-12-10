@@ -33,7 +33,7 @@ body {
 a:hover {
   color: red;
   cursor: pointer;
-  padding: 10px;
+
   border-radius: 8px;
   transform: translateX(-20%);
 }
@@ -46,33 +46,16 @@ a:hover {
 }
 
 input {
-  padding: 12px;
+  padding: 8px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 50px;
   border: 1px solid white;
   background-color: transparent;
 }
 input[type="search"] {
   color: whitesmoke;
 }
-button {
-  padding: 10px;
-  margin: 5px;
-  border-radius: 5px;
-  border: 3px outset white;
-  transition: all 4ms ease-in;
-}
-button {
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
-}
-button:hover {
-  transform: translateY(-3%);
-  background-color: rgba(233, 233, 233, 0.902);
-  color: black;
-  cursor: pointer;
-}
+
 .side_search_bar {
   padding: 10px;
   float: right;
