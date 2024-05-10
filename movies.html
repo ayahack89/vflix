@@ -1,701 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/VFLix-logos.jpeg" type="image/x-icon" />
-    <link rel="stylesheet" href="css/movies.css" />
-    <title>VFLix Movies - Watch Series and Movies Online Free</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
 
-        <li><a href="movies.html">Movies</a></li>
-        <li><a href="WeSerise.html">OTT</a></li>
-        <li><a href="https://www.imdb.com/?ref_=nv_home">IMDB</a></li>
-        <li><a href="About.html">About</a></li>
-        <div class="side_search_bar">
-          <input
-            type="search"
-            placeholder="Search"
-            name="Search"
-            id="Search"
-            required
-          />
-        </div>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/VFLix-logos.jpeg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/movies&ott.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    " />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+  <title>VFLix Movies - Watch Series and Movies Online Free</title>
+</head>
 
-    <!-- Trending section -->
-    <h1 class="Box_heading">Popular</h1>
-    <div class="Box_section">
-      <img
-        src="Movies_Banner_Img/Opphenheimer.jpeg"
-        alt="Opphenheimer"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Mission Impossible.jpeg"
-        alt="Mission_Impossible"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/Barbi.jpeg" alt="Barbi" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg"
-        alt="Spiderman-Accross-the-spider-verse"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/John Wick-Chapter 4.jpeg"
-        alt="John Wick-Chapter 4"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Gardians-Of-Galaxy-Volume-3.jpeg"
-        alt="Gardians-Of-Galaxy-Volume-3"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Mission_Impossible-Fallout.jpeg"
-        alt="Mission_Impossible-Fallout"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/My Fault.jpeg"
-        alt="My_Fault"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-Into-The-spider-verse.jpg"
-        alt="Spiderman-Into-The-spider-verse"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/Fast-x.jpg" alt="Fast-x" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Interstellar.jpeg"
-        alt="Interstellar"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The Flash.jpeg"
-        alt="The-Flash"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Bullet-Train.jpeg"
-        alt="Bullet-Train"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Extraction 2.jpeg"
-        alt="Extraction-2"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The Out Law.jpeg"
-        alt="The-Out-Law"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The Wolf of Wall Street.jpeg"
-        alt="The Wolf of Wall Street"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Batman.jpeg"
-        alt="The-Batman"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Nun-II.jpeg"
-        alt="The-Nun-II"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/The-Nun.jpeg" alt="The-Nun" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Puss in Boots-The Last Wish.jpg"
-        alt="Puss in Boots-The Last Wish"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Top Gun-Maverick.jpeg"
-        alt="Top Gun-Maverick"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/65.jpeg" alt="65" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Aporajito.jpeg"
-        alt="Aporajito"
-        class="poster"
-      />
+<body class="bg-dark text-light">
+  <!-- navbar -start  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark background">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/VFLix-logos.jpeg" alt="Bootstrap" width="30" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="ri-home-5-line"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="movies.html"><i class="ri-film-line"></i> Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="WeSerise.html"><i class="ri-tv-2-line"></i> OTT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" target="_blank" href="https://www.imdb.com/"><i
+                class="ri-movie-line"></i> IMDB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="About.html"><i class="ri-file-list-3-line"></i>
+              About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 bg-dark py-0 text-light"
+            style="border-radius: 50px; border: 2px solid whitesmoke;" type="search" aria-label="Search">
+          <button class="btn btn-outline-light rounded-circle" type="submit" style="border: 2px solid whitesmoke;"><i
+              class="ri-search-line"></i></button>
+        </form>
+      </div>
     </div>
+  </nav>
+  <!-- navbar -end  -->
 
-    <!-- Hollywood -->
-    <h1 class="Box_heading">Hollywood</h1>
-    <div class="Box_section">
-      <img
-        src="Movies_Banner_Img/INCEPTION.jpg"
-        alt="INCEPTION"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Dark-Knight.jpg"
-        alt="The-Dark-Knight"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Dark-Knight-Rises.jpg"
-        alt="The-Dark-Knight-Rises"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/65.jpeg" alt="65" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Interstellar.jpeg"
-        alt="Interstellar"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Gardians-Of-Galaxy-Volume-3.jpeg"
-        alt="Gardians-Of-Galaxy-Volume-3"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Gardians-OF-The-Galaxy.jpg"
-        alt="Gardians-OF-The-Galaxy"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/Dune.jpeg" alt="Dune" class="poster" />
-
-      <img src="Movies_Banner_Img/Joker.png" alt="Joker" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/The-Prestige.jpeg"
-        alt="The-Prestige"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Top Gun-Maverick.jpeg"
-        alt="Top Gun-Maverick"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Catch-me-if-you-Can.jpeg"
-        alt="Catch-me-if-you-Can"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/American-Psycho.jpeg"
-        alt="American-Psycho"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Matrix.jpeg"
-        alt="The-Matrix"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/Drive.jpg" alt="Drive" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Blade-Runner.jpeg"
-        alt="Blade-Runner"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-noWayHome.jpeg"
-        alt="Spiderman-noWayHome"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg"
-        alt="Spiderman-Accross-the-spider-verse"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-Into-The-spider-verse.jpg"
-        alt="Spiderman-Into-The-spider-verse"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Fight-Club.jpeg"
-        alt="Fight-Club"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/Fast-x.jpg" alt="Fast-x" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/The-God-Father.jpg"
-        alt="The-God-Father"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Lords-of-Rings-Return-King.jpeg"
-        alt="The-Lords-of-Rings-Return-King"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Lords-of-Rings.jpg"
-        alt="The-Lords-of-Rings"
-        class="poster"
-      />
-
-      <img src="Movies_Banner_Img/1917.jpg" alt="1917" class="poster" />
-
-      <img
-        src="Movies_Banner_Img/Gladiator.jpeg"
-        alt="Gladiator"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Avatar-thewaYofWater.jpeg"
-        alt="Avatar-thewaYofWater"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Avengers-Endgame.jpeg"
-        alt="Avengers-Endgame"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Batman.jpeg"
-        alt="The-Batman"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Forest-Gump.jpg"
-        alt="Forest-Gump"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/The-Green-mile.jpeg"
-        alt="The-Green-mile"
-        class="poster"
-      />
-    </div>
-    <!-- Bollywood -->
-    <h1 class="Box_heading">Bollywood</h1>
-    <div class="Box_section">
-      <img
-        src="Movies_BollyBanner_Img/GanguBai-Kathiawadi.jpeg"
-        alt="GanguBai-Kathiawadi"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Article-15.jpeg"
-        alt="Article-15"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Bhediya.jpeg"
-        alt="Bhediya"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Bholaa.jpeg"
-        alt="Bholaa"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Kabir-SingH.jpeg"
-        alt="Kabir-SingH"
-        class="poster"
-      />
-
-      <img src="Movies_BollyBanner_Img/2.0.jpeg" alt="2.0" class="poster" />
-
-      <img
-        src="Movies_BollyBanner_Img/LalSingChhadda.jpeg"
-        alt="LalSingChhadda"
-        class="poster"
-      />
-
-      <img src="Movies_BollyBanner_Img/83.jpeg" alt="83" class="poster" />
-
-      <img
-        src="Movies_BollyBanner_Img/Antim-_The_Final_Truth.jpg"
-        alt="Antim-_The_Final_Truth"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Kalank.jpeg"
-        alt="Kalank"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Atrangi-Re.jpeg"
-        alt="Atrangi-Re"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/CHHICHHORE.jpg"
-        alt="CHHICHHORE"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Laxmii.jpeg"
-        alt="Laxmii"
-        class="poster"
-      />
-
-      <img src="Movies_BollyBanner_Img/Liger.jpeg" alt="Liger" class="poster" />
-
-      <img
-        src="Movies_BollyBanner_Img/Lust-Stories.jpeg"
-        alt="Lust-Stories"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Love-aJJ-Kal.jpg"
-        alt="Love-aJJ-Kal"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Mission-Mangal.jpeg"
-        alt="Mission-Mangal"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Panipat.jpeg"
-        alt="Panipat"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Ram-Satu.jpeg"
-        alt="Ram-Satu"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Shaadi-mai-zaroor-Ana.jpg"
-        alt="Shaadi-mai-zaroor-Ana"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Shehazada.jpeg"
-        alt="Shehazada"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Shershaah.jpeg"
-        alt="Shershaah"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Shiddat.jpeg"
-        alt="Shiddat"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Simmba.jpg"
-        alt="Simmba"
-        class="poster"
-      />
-
-      <img src="Movies_BollyBanner_Img/Stree.jpg" alt="Stree" class="poster" />
-
-      <img
-        src="Movies_BollyBanner_Img/The-Kashmir-Files.jpeg"
-        alt="The-Kashmir-Files"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Tu-Jhooti-Mai-Makkarra.jpeg"
-        alt="Tu-Jhooti-Mai-Makkarra"
-        class="poster"
-      />
-
-      <img src="Movies_BollyBanner_Img/URI.jpeg" alt="URI" class="poster" />
-
-      <img src="Movies_BollyBanner_Img/WAR.jpeg" alt="WAR" class="poster" />
-
-      <img
-        src="Movies_BollyBanner_Img/Vikram-Vedha.jpeg"
-        alt="Vikram-Vedha"
-        class="poster"
-      />
-    </div>
-
-    <!-- Tollywood -->
-    <h1 class="Box_heading">Tollywood</h1>
-    <div class="Box_section">
-      <img
-        src="Movies_TollyBanner_Img/X-Prem.jpg"
-        alt="X-Prem"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Belashuru.jpeg"
-        alt="Belashuru"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Aparajito.jpg"
-        alt="Aparajito"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Boudi-Canteen.jpg"
-        alt="Boudi-Canteen"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Goloandaaj.jpg"
-        alt="Goloandaaj"
-        class="poster"
-      />
-
-      <img src="Movies_TollyBanner_Img/Haowa.jpg" alt="Haowa" class="poster" />
-
-      <img
-        src="Movies_TollyBanner_Img/Hatyapuri.webp"
-        alt="HatyapuriMo"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Kacher-Manush.jpeg"
-        alt="Kacher-Manush"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/karnasubarnar-Guptodhan.jpeg"
-        alt="karnasubarnar-Guptodhan"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Kishmiss.jpg"
-        alt="Kishmiss"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Mahananda.jpeg"
-        alt="Mahananda"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Prem-Tem.jpg"
-        alt="Prem-Tem"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Projapoti.jpeg"
-        alt="Projapoti"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Raavan.jpeg"
-        alt="Raavan"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/The-Eken.jpeg"
-        alt="The-Eken"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Asur-Bengali.jpg"
-        alt="Asur-Bengali"
-        class="poster"
-      />
-    </div>
-
-    <!-- Latest -->
-    <h1 class="Box_heading">Latest</h1>
-    <div class="Box_section">
-      <img
-        src="Movies_Banner_Img/Mission Impossible.jpeg"
-        alt="Mission_Impossible"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/American-Psycho.jpeg"
-        alt="American-Psycho"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/CHHICHHORE.jpg"
-        alt="CHHICHHORE"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Aparajito.jpg"
-        alt="Aporajito"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Article-15.jpeg"
-        alt="Article-15"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Blade-Runner.jpeg"
-        alt="Blade-Runner"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Interstellar.jpeg"
-        alt="Interstellar"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/INCEPTION.jpg"
-        alt="INCEPTION"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Asur-Bengali.jpg"
-        alt="Asur-Bengali"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Aporajito.jpeg"
-        alt="Aparajito"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Kabir-SingH.jpeg"
-        alt="Kabir-SingH"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/Mission-Mangal.jpeg"
-        alt="Mission-Mangal"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Mission_Impossible-Fallout.jpeg"
-        alt="Mission_Impossible-Fallout"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Avengers-Endgame.jpeg"
-        alt="Avengers-Endgame"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Fight-Club.jpeg"
-        alt="Fight-Club"
-        class="poster"
-      />
-
-      <img
-        src="Movies_TollyBanner_Img/Goloandaaj.jpg"
-        alt="Goloandaaj"
-        class="poster"
-      />
-
-      <img
-        src="Movies_BollyBanner_Img/GanguBai-Kathiawadi.jpeg"
-        alt="GanguBai-Kathiawadi"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg"
-        alt="Spiderman-Accross-the-spider-verse"
-        class="poster"
-      />
-
-      <img
-        src="Movies_Banner_Img/John Wick-Chapter 4.jpeg"
-        alt="John Wick-Chapter 4"
-        class="poster"
-      />
-    </div>
-    <footer class="movie-footer">
-      <p class="movie-footer-last">
-        Copyright &copy; 2030 VFLix.com [Netflix-Clone] - All packegs reserved
-      </p>
-    </footer>
-  </body>
+  <!-- Trending section -->
+  <h1 class="Box_heading">Popular</h1>
+  <div class="Box_section bg-dark">
+    <img src="Movies_Banner_Img/Opphenheimer.jpeg" alt="Opphenheimer" class="poster" />
+
+    <img src="Movies_Banner_Img/Mission Impossible.jpeg" alt="Mission_Impossible" class="poster" />
+
+    <img src="Movies_Banner_Img/Barbi.jpeg" alt="Barbi" class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg" alt="Spiderman-Accross-the-spider-verse"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/John Wick-Chapter 4.jpeg" alt="John Wick-Chapter 4" class="poster" />
+
+    <img src="Movies_Banner_Img/Gardians-Of-Galaxy-Volume-3.jpeg" alt="Gardians-Of-Galaxy-Volume-3" class="poster" />
+
+    <img src="Movies_Banner_Img/Mission_Impossible-Fallout.jpeg" alt="Mission_Impossible-Fallout" class="poster" />
+
+    <img src="Movies_Banner_Img/My Fault.jpeg" alt="My_Fault" class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-Into-The-spider-verse.jpg" alt="Spiderman-Into-The-spider-verse"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/Fast-x.jpg" alt="Fast-x" class="poster" />
+
+    <img src="Movies_Banner_Img/Interstellar.jpeg" alt="Interstellar" class="poster" />
+
+    <img src="Movies_Banner_Img/The Flash.jpeg" alt="The-Flash" class="poster" />
+
+    <img src="Movies_Banner_Img/Bullet-Train.jpeg" alt="Bullet-Train" class="poster" />
+
+    <img src="Movies_Banner_Img/Extraction 2.jpeg" alt="Extraction-2" class="poster" />
+
+    <img src="Movies_Banner_Img/The Out Law.jpeg" alt="The-Out-Law" class="poster" />
+
+    <img src="Movies_Banner_Img/The Wolf of Wall Street.jpeg" alt="The Wolf of Wall Street" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Batman.jpeg" alt="The-Batman" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Nun-II.jpeg" alt="The-Nun-II" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Nun.jpeg" alt="The-Nun" class="poster" />
+
+    <img src="Movies_Banner_Img/Puss in Boots-The Last Wish.jpg" alt="Puss in Boots-The Last Wish" class="poster" />
+
+    <img src="Movies_Banner_Img/Top Gun-Maverick.jpeg" alt="Top Gun-Maverick" class="poster" />
+
+    <img src="Movies_Banner_Img/65.jpeg" alt="65" class="poster" />
+
+    <img src="Movies_Banner_Img/Aporajito.jpeg" alt="Aporajito" class="poster" />
+  </div>
+
+  <!-- Hollywood -->
+  <h1 class="Box_heading">Hollywood</h1>
+  <div class="Box_section">
+    <img src="Movies_Banner_Img/INCEPTION.jpg" alt="INCEPTION" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Dark-Knight.jpg" alt="The-Dark-Knight" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Dark-Knight-Rises.jpg" alt="The-Dark-Knight-Rises" class="poster" />
+
+    <img src="Movies_Banner_Img/65.jpeg" alt="65" class="poster" />
+
+    <img src="Movies_Banner_Img/Interstellar.jpeg" alt="Interstellar" class="poster" />
+
+    <img src="Movies_Banner_Img/Gardians-Of-Galaxy-Volume-3.jpeg" alt="Gardians-Of-Galaxy-Volume-3" class="poster" />
+
+    <img src="Movies_Banner_Img/Gardians-OF-The-Galaxy.jpg" alt="Gardians-OF-The-Galaxy" class="poster" />
+
+    <img src="Movies_Banner_Img/Dune.jpeg" alt="Dune" class="poster" />
+
+    <img src="Movies_Banner_Img/Joker.png" alt="Joker" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Prestige.jpeg" alt="The-Prestige" class="poster" />
+
+    <img src="Movies_Banner_Img/Top Gun-Maverick.jpeg" alt="Top Gun-Maverick" class="poster" />
+
+    <img src="Movies_Banner_Img/Catch-me-if-you-Can.jpeg" alt="Catch-me-if-you-Can" class="poster" />
+
+    <img src="Movies_Banner_Img/American-Psycho.jpeg" alt="American-Psycho" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Matrix.jpeg" alt="The-Matrix" class="poster" />
+
+    <img src="Movies_Banner_Img/Drive.jpg" alt="Drive" class="poster" />
+
+    <img src="Movies_Banner_Img/Blade-Runner.jpeg" alt="Blade-Runner" class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-noWayHome.jpeg" alt="Spiderman-noWayHome" class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg" alt="Spiderman-Accross-the-spider-verse"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-Into-The-spider-verse.jpg" alt="Spiderman-Into-The-spider-verse"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/Fight-Club.jpeg" alt="Fight-Club" class="poster" />
+
+    <img src="Movies_Banner_Img/Fast-x.jpg" alt="Fast-x" class="poster" />
+
+    <img src="Movies_Banner_Img/The-God-Father.jpg" alt="The-God-Father" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Lords-of-Rings-Return-King.jpeg" alt="The-Lords-of-Rings-Return-King"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/The-Lords-of-Rings.jpg" alt="The-Lords-of-Rings" class="poster" />
+
+    <img src="Movies_Banner_Img/1917.jpg" alt="1917" class="poster" />
+
+    <img src="Movies_Banner_Img/Gladiator.jpeg" alt="Gladiator" class="poster" />
+
+    <img src="Movies_Banner_Img/Avatar-thewaYofWater.jpeg" alt="Avatar-thewaYofWater" class="poster" />
+
+    <img src="Movies_Banner_Img/Avengers-Endgame.jpeg" alt="Avengers-Endgame" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Batman.jpeg" alt="The-Batman" class="poster" />
+
+    <img src="Movies_Banner_Img/Forest-Gump.jpg" alt="Forest-Gump" class="poster" />
+
+    <img src="Movies_Banner_Img/The-Green-mile.jpeg" alt="The-Green-mile" class="poster" />
+  </div>
+  <!-- Bollywood -->
+  <h1 class="Box_heading">Bollywood</h1>
+  <div class="Box_section">
+    <img src="Movies_BollyBanner_Img/GanguBai-Kathiawadi.jpeg" alt="GanguBai-Kathiawadi" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Article-15.jpeg" alt="Article-15" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Bhediya.jpeg" alt="Bhediya" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Bholaa.jpeg" alt="Bholaa" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Kabir-SingH.jpeg" alt="Kabir-SingH" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/2.0.jpeg" alt="2.0" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/LalSingChhadda.jpeg" alt="LalSingChhadda" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/83.jpeg" alt="83" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Antim-_The_Final_Truth.jpg" alt="Antim-_The_Final_Truth" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Kalank.jpeg" alt="Kalank" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Atrangi-Re.jpeg" alt="Atrangi-Re" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/CHHICHHORE.jpg" alt="CHHICHHORE" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Laxmii.jpeg" alt="Laxmii" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Liger.jpeg" alt="Liger" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Lust-Stories.jpeg" alt="Lust-Stories" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Love-aJJ-Kal.jpg" alt="Love-aJJ-Kal" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Mission-Mangal.jpeg" alt="Mission-Mangal" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Panipat.jpeg" alt="Panipat" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Ram-Satu.jpeg" alt="Ram-Satu" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Shaadi-mai-zaroor-Ana.jpg" alt="Shaadi-mai-zaroor-Ana" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Shehazada.jpeg" alt="Shehazada" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Shershaah.jpeg" alt="Shershaah" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Shiddat.jpeg" alt="Shiddat" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Simmba.jpg" alt="Simmba" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Stree.jpg" alt="Stree" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/The-Kashmir-Files.jpeg" alt="The-Kashmir-Files" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Tu-Jhooti-Mai-Makkarra.jpeg" alt="Tu-Jhooti-Mai-Makkarra" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/URI.jpeg" alt="URI" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/WAR.jpeg" alt="WAR" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Vikram-Vedha.jpeg" alt="Vikram-Vedha" class="poster" />
+  </div>
+
+  <!-- Tollywood -->
+  <h1 class="Box_heading">Tollywood</h1>
+  <div class="Box_section">
+    <img src="Movies_TollyBanner_Img/X-Prem.jpg" alt="X-Prem" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Belashuru.jpeg" alt="Belashuru" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Aparajito.jpg" alt="Aparajito" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Boudi-Canteen.jpg" alt="Boudi-Canteen" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Goloandaaj.jpg" alt="Goloandaaj" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Haowa.jpg" alt="Haowa" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Hatyapuri.webp" alt="HatyapuriMo" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Kacher-Manush.jpeg" alt="Kacher-Manush" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/karnasubarnar-Guptodhan.jpeg" alt="karnasubarnar-Guptodhan" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Kishmiss.jpg" alt="Kishmiss" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Mahananda.jpeg" alt="Mahananda" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Prem-Tem.jpg" alt="Prem-Tem" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Projapoti.jpeg" alt="Projapoti" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Raavan.jpeg" alt="Raavan" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/The-Eken.jpeg" alt="The-Eken" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Asur-Bengali.jpg" alt="Asur-Bengali" class="poster" />
+  </div>
+
+  <!-- Latest -->
+  <h1 class="Box_heading">Most watched</h1>
+  <div class="Box_section">
+    <img src="Movies_Banner_Img/Mission Impossible.jpeg" alt="Mission_Impossible" class="poster" />
+
+    <img src="Movies_Banner_Img/American-Psycho.jpeg" alt="American-Psycho" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/CHHICHHORE.jpg" alt="CHHICHHORE" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Aparajito.jpg" alt="Aporajito" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Article-15.jpeg" alt="Article-15" class="poster" />
+
+    <img src="Movies_Banner_Img/Blade-Runner.jpeg" alt="Blade-Runner" class="poster" />
+
+    <img src="Movies_Banner_Img/Interstellar.jpeg" alt="Interstellar" class="poster" />
+
+    <img src="Movies_Banner_Img/INCEPTION.jpg" alt="INCEPTION" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Asur-Bengali.jpg" alt="Asur-Bengali" class="poster" />
+
+    <img src="Movies_Banner_Img/Aporajito.jpeg" alt="Aparajito" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Kabir-SingH.jpeg" alt="Kabir-SingH" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/Mission-Mangal.jpeg" alt="Mission-Mangal" class="poster" />
+
+    <img src="Movies_Banner_Img/Mission_Impossible-Fallout.jpeg" alt="Mission_Impossible-Fallout" class="poster" />
+
+    <img src="Movies_Banner_Img/Avengers-Endgame.jpeg" alt="Avengers-Endgame" class="poster" />
+
+    <img src="Movies_Banner_Img/Fight-Club.jpeg" alt="Fight-Club" class="poster" />
+
+    <img src="Movies_TollyBanner_Img/Goloandaaj.jpg" alt="Goloandaaj" class="poster" />
+
+    <img src="Movies_BollyBanner_Img/GanguBai-Kathiawadi.jpeg" alt="GanguBai-Kathiawadi" class="poster" />
+
+    <img src="Movies_Banner_Img/Spiderman-Accross-the-spider-verse.jpeg" alt="Spiderman-Accross-the-spider-verse"
+      class="poster" />
+
+    <img src="Movies_Banner_Img/John Wick-Chapter 4.jpeg" alt="John Wick-Chapter 4" class="poster" />
+  </div>
+  <footer class="movie-footer">
+    <p class="movie-footer-last">
+      Copyright &copy; 2030 VFLix.com [Netflix-Clone] - All packegs reserved
+    </p>
+  </footer>
+</body>
+
 </html>
