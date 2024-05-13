@@ -4,7 +4,7 @@
 <p>Live link: https://vflix-web.vercel.app/</p>
 <br>
 <h3>Desktop View</h3>
-<img src="Screenshot (362).jpg" />
+<img src="Screenshot (362).png" />
 <h3>Mobile View</h3>
 
 
